@@ -76,7 +76,8 @@ AB膠|			五金行|			$140
 ## 實作過程 - GPIO 配置
 1.ULN2003 Driver Board (Stepper motor)
 - pin 2,6,11,12,13,15
-![step](https://github.com/NCNU-OpenSource/PlayMeow/raw/master/img/1032%20Practical%20Linux%20System%20Administration.png)
+![step1](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/pipin.png)
+![step2](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/pysan.JPG)
 
 2.L293D晶片
 - pin 4,7,20
