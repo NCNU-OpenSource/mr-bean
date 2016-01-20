@@ -81,7 +81,7 @@ AB膠|			五金行|			$140
 ![servo](https://github.com/NCNU-OpenSource/PlayMeow/raw/master/img/1032%20Practical%20Linux%20System%20Administration%20(1).png)
 
 ## 實作過程 - webcam
-![p6](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/img/006.png)
+![p6](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/006.png)
 
 ## 實作過程 - MJPG-streamer
 1.Builds MJPG-streamer
@@ -97,10 +97,10 @@ sudo ./mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w .
 ## 實作過程 － Coding (servo90.php & servo90.py)
 
 ## 實際產出 - 外觀
-![p2](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/img/002.png)
-![p3](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/img/003.png)
-![p4](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/img/004.png)
-![p5](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/img/005.png)
+![p2](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/002.png)
+![p3](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/003.png)
+![p4](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/004.png)
+![p5](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/005.png)
 
 ## 參考資料
 1.網頁：
