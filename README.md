@@ -9,7 +9,7 @@
 - 兒時對於世X帝國二中攻城兵器的嚮往
 - 構想圖
 
-![p1](https://github.com/NCNU-OpenSource/mr-bean/img/001.png)
+![p1](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/001.png)
 
 [![參考影片](https://img.youtube.com/vi/CgNlPOMOps0/0.jpg)](https://www.youtube.com/watch?v=CgNlPOMOps0)
 
