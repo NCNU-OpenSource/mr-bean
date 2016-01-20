@@ -17,7 +17,7 @@
 
 
 ## 實作所需材料
- 電子材料 | 取得來源 | 價格
+電子材料 | 取得來源 | 價格
 ------------ | ------------- | -------------
 Raspberry Pi|			BlueT|			$－－
 Logitech Webcam C170|		yahoo拍賣|			$549
@@ -29,6 +29,7 @@ Logitech Webcam C170|		yahoo拍賣|			$549
 83x55mm 麵包板|			ICshop|			$65
 L293D控制晶片|			ICshop|			$95
 電池8顆|			草屯電子材料行|			$80
+
 
 材料 | 取得來源 | 價格
 ------------ | ------------- | -------------
@@ -77,9 +78,26 @@ AB膠|			五金行|			$140
 - pin 2,6,11,12,13,15
 ![step](https://github.com/NCNU-OpenSource/PlayMeow/raw/master/img/1032%20Practical%20Linux%20System%20Administration.png)
 
-2.直流馬達
-- pin 4,7,20
-![servo](https://github.com/NCNU-OpenSource/PlayMeow/raw/master/img/1032%20Practical%20Linux%20System%20Administration%20(1).png)
+2.L293D晶片
+![L293D](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/l293d.jpg)
+- 接腳說明
+
+接腳 | 用途 | 說明
+------------ | ------------- | -------------
+1| Enable 1,2|			作為左半邊IC控制用。此Pin為高電壓時，左半邊IC可作用，反之，低電壓時，左半邊IC無作用。
+2| INPUT 1|			此Pin為高電壓時，電流會流出至Output 1。
+3| OUTPUT 1|			此Pin要接到終端馬達的一個接腳。
+4,5| GND|			接地。
+6| OUTPUT 2|			此Pin要接到終端馬達的一個接腳。
+7| INPUT 2|			此Pin為高電壓時，電流會流出至Output 2。
+8| VC|			供給給馬達使用的電壓，如果要驅動的馬達是12V，那就要供給這個Pin 12V直流電。
+9| Enable 3,4|			作為右半邊IC控制用。此Pin為高電壓時，右半邊IC可作用，反之，低電壓時，右半邊IC無作用。
+10| INPUT 3|			此Pin為高電壓時，電流會流出至Output 3。
+11| OUTPUT 3|			此Pin要接到終端馬達的一個接腳。
+12,13| GND|			接地。
+14| OUTPUT 4|			此Pin要接到終端馬達的一個接腳。
+15| INPUT 4|			此Pin為高電壓時，電流會流出至Output 4。
+16| Vcc|			提供給IC的電源，這個Pin要供給5V電壓。
 
 ## 實作過程 - webcam
 ![p6](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/006.jpg)
@@ -153,6 +171,7 @@ while True:
 - https://github.com/NCNU-OpenSource/BT-7
 - https://github.com/NCNU-OpenSource/PlayMeow
 - https://www.raspberrypi.com.tw/4944/raspberry-pi-2-and-rpi-gpio/
+- http://atceiling.blogspot.tw/2014/02/raspberry-pi-l293d.html#.Vp-ggvl97IU
 - https://books.google.com.tw/books?id=n4XSCQAAQBAJ&pg=SA19-PA22&lpg=SA19-PA22&dq=raspberry+pi+gpio+%E8%AA%BF%E6%95%B4%E9%A6%AC%E9%81%94%E8%BD%89%E9%80%9F&source=bl&ots=I3OkQemmaR&sig=5E6Eu-SJka-G1EKytGap-6SDCq4&hl=zh-TW&sa=X&ved=0ahUKEwiNlI_U56bKAhWKmJQKHTIXAksQ6AEIITAB#v=onepage&q=raspberry%20pi%20gpio%20%E8%AA%BF%E6%95%B4%E9%A6%AC%E9%81%94%E8%BD%89%E9%80%9F&f=false
 
 
