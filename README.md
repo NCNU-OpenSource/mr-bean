@@ -79,6 +79,8 @@ AB膠|			五金行|			$140
 ![step](https://github.com/NCNU-OpenSource/PlayMeow/raw/master/img/1032%20Practical%20Linux%20System%20Administration.png)
 
 2.L293D晶片
+- pin 4,7,20
+
 ![L293D](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/l293d.jpg)
 - 接腳說明
 
