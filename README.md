@@ -169,7 +169,7 @@ while True:
 ![p4](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/004.jpg)
 
 ## demo
-- [demo video](https://youtu.be/Bdxe6ts-_pI)
+- [豆豆先生 video](https://youtu.be/Bdxe6ts-_pI)
 
 ## 參考資料
 1.網頁：
