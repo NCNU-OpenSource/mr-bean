@@ -143,6 +143,7 @@ while True:
 ```
 
 ## 實際產出 - 外觀
+
 ![p2](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/002.png)
 
 ![p4](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/004.jpg)
@@ -157,6 +158,7 @@ while True:
 
 2.書籍：
 - Raspberry Pi超炫專案與完全實戰 ， 柯博文 ， 碁峰 ，2014-09-26
+![p7](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/007.jpg)
 
 ## END
 THANK YOU !
