@@ -63,12 +63,13 @@ AB膠|			五金行|			$140
 
 ## 使用的現有軟體與來源
 
-1.Servo motor
-- software: Python
-- [code](https://www.youtube.com/watch?v=ddlDgUymbxc)
+1.Python
 
 2.Webcam
-- software: [MJPG-streamer](http://sourceforge.net/projects/mjpg-streamer/)
+- software: MJPG-streamer
+
+3.motor
+- software: RPi.GPIO
 
 
 ## 實作過程 - GPIO 配置
