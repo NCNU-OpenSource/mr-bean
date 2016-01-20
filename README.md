@@ -7,9 +7,13 @@
 - 做出趣味性的產品
 - 玩家都可以依照喜好，自由改裝
 - 兒時對於世X帝國二中攻城兵器的嚮往
-[![參考影片](https://img.youtube.com/vi/CgNlPOMOps0/0.jpg)](https://www.youtube.com/watch?v=CgNlPOMOps0)
 - 構想圖
+
 ![p1](https://github.com/NCNU-OpenSource/mr-bean/img/001.png)
+
+[![參考影片](https://img.youtube.com/vi/CgNlPOMOps0/0.jpg)](https://www.youtube.com/watch?v=CgNlPOMOps0)
+
+
 
 
 ## 實作所需材料
