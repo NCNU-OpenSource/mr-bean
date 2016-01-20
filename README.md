@@ -66,7 +66,7 @@ AB膠|			五金行|			$140
 1.Python
 
 2.Webcam
-- software: MJPG-streamer
+- software: [MJPG-streamer](http://www.ntex.tw/wordpress/545.html)
 
 3.motor
 - software: RPi.GPIO
@@ -95,10 +95,56 @@ sudo make
 sudo ./mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
 ```
 
-## 實作過程 － Coding (servo90.php & servo90.py)
+## 實作過程 － Coding
+```
+import RPi.GPIO as GPIO
+
+from time import sleep
+
+GPIO.setmode(GPIO.BOARD)
+
+Motor1A = 11
+Motor1B = 12
+Motor1E = 13
+GPIO.setup(Motor1A,GPIO.OUT)
+
+GPIO.setup(Motor1B,GPIO.OUT)
+
+GPIO.setup(Motor1E,GPIO.OUT)
+def clockwise():
+    print "Turning motor on Clockwise."
+    GPIO.output(Motor1A,GPIO.LOW)
+    GPIO.output(Motor1B,GPIO.HIGH)
+    GPIO.output(Motor1E,GPIO.HIGH)
+
+def counterclockwise():
+    print "Turning motor on Counterclockwise."
+    GPIO.output(Motor1A,GPIO.HIGH)
+    GPIO.output(Motor1B,GPIO.LOW)
+    GPIO.output(Motor1E,GPIO.HIGH)
+
+def stopmotor():
+    print "Stopping motor"
+    GPIO.output(Motor1E,GPIO.LOW)
+
+while True:
+    cmd = raw_input("Command, q/s/w/e ")
+    direction = cmd[0]
+    if direction == "q":
+        clockwise()
+    elif direction == "s":
+        stopmotor()
+    elif direction == "w":
+        counterclockwise()
+    elif direction == "e":
+        GPIO.cleanup()
+        break
+
+```
 
 ## 實際產出 - 外觀
 ![p2](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/002.png)
+
 ![p4](https://raw.githubusercontent.com/NCNU-OpenSource/mr-bean/master/img/004.jpg)
 
 ## 參考資料
